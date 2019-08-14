@@ -32,7 +32,7 @@ Json file :
 }
 ```
 
-If you need to handle some logic from request data. Create a js file :
+If you need to handle some logic from request data. Create a .js file :
 
 ```javascript
 const dict1 = [{ type: 1, value: "1" }];
@@ -58,10 +58,12 @@ const mocker = require('flex-mocker')
 
 devServer: {
   ...
-  before: mocker({
-    mockDir: path.join(__dirname, './mock'),
-    requestPrefixes: ['/api', '/order']
-  }),
+  before: app => {
+    mocker({
+      mockDir: resolve('./mock'),
+      requestPrefixes: ['/ad']
+    })(app)
+  },
   proxy: {
    ...
   }
