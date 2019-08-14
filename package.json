@@ -20,7 +20,7 @@
     "url": "https://github.com/Edge00/flex-mocker/issues"
   },
   "homepage": "https://github.com/Edge00/flex-mocker#readme",
-  "devDependencies": {
+  "dependencies": {
     "body-parser": "^1.19.0",
     "chalk": "^2.4.2",
     "chokidar": "^3.0.2"
