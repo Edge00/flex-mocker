@@ -1,3 +1,12 @@
+<div>
+    <a href="https://npmcharts.com/compare/webpack?minimal=true">
+        <img src="https://img.shields.io/npm/dm/flex-mocker.svg">
+    </a>
+    <a href="https://packagephobia.now.sh/result?p=webpack">
+        <img src="https://packagephobia.now.sh/badge?p=flex-mocker" alt="install size">
+    </a>
+</div>
+
 # flex-mocker
 
 A webpack dev server extension to make front end data mock enjoyable
