@@ -1,6 +1,6 @@
 {
   "name": "flex-mocker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A webpack dev server extension to make front end data mock enjoyable",
   "main": "lib/index.js",
   "scripts": {
