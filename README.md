@@ -9,6 +9,8 @@
 
 # flex-mocker
 
+[中文]('./README.zh-CN.md')
+
 A webpack dev server extension to make front end data mock enjoyable
 
 ## Feature
@@ -70,7 +72,7 @@ devServer: {
   before: app => {
     mocker({
       mockDir: resolve('./mock'),
-      requestPrefixes: ['/ad']
+      requestPrefixes: ['/api']
     })(app)
   },
   proxy: {
