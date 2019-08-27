@@ -78,3 +78,5 @@ devServer: {
 `mockDir` : mock 文件夹的绝对路径
 
 `requestPrefixes` : 需要进行 mock 的请求 url 前缀
+
+`delay` : 响应延迟，默认值为 0

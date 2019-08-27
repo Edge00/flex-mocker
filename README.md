@@ -86,3 +86,5 @@ devServer: {
 `mockDir` : the absolute path of the folder where you put your mock files in.
 
 `requestPrefixes` : request prefix that hit mock.
+
+`delay` : response delay. default value is 0.
