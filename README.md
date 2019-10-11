@@ -11,7 +11,7 @@
 
 [中文](https://github.com/Edge00/flex-mocker/blob/master/README.zh-CN.md)
 
-A webpack dev server extension to make front end data mock enjoyable
+A webpack dev server extension to make front end data mock more flexible
 
 ## Feature
 
