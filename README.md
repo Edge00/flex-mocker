@@ -17,7 +17,7 @@ A webpack dev server extension to make front end data mock more flexible
 
 Use url to control whether to use mock.
 
-if you have proxy config in your webpack. you can easily switch mock or proxy server by adding or removing `mode=online` search in url.
+if you have proxy config in your webpack. you can easily switch mock or proxy server by adding or removing `mode=online` query in url.
 
 ## usage
 
