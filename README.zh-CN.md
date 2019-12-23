@@ -8,7 +8,7 @@
 
 默认请求本地 mock 数据
 
-通过在地址栏添加 `mode=online` 的 search 即可请求代理（webpack proxy）接口
+通过在地址栏添加 `mode=online` 的 query 即可请求代理（webpack proxy）接口
 
 ## 使用方法
 
